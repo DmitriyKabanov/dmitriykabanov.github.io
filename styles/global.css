@@ -1,0 +1,85 @@
+:root {
+    --brand-color-1: #306054;
+    --brand-color-2: #3C7361;
+    --brand-color-3: #74AA9F;
+    --brand-color-4: #79932D;
+    --brand-color-5: #AAB754;
+    --brand-color-6: #CCCE4B;
+    --brand-color-7: #F7C852;
+}
+
+main {
+    min-height: 70%;
+}
+
+body {
+    font-family: 'Rounded1c-Regular', Arial, sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    max-width: 40rem;
+    margin: auto;
+    font-size: 1.75vh;
+}
+
+@media screen and (max-device-width: 1024px), screen and (max-width: 1024px) {
+    body {
+        max-width: 100%;
+    }
+}
+
+@font-face {
+    font-family: "Rounded1c-Regular";
+    src: url(../fonts/MPLUSRounded1c-Regular.ttf);
+}
+
+header, footer {
+    height: 15%;
+    background-size: contain !important;
+    background-position-x: center !important;
+}
+
+header {
+    background: url(../images/header.svg) no-repeat;
+}
+
+footer {
+    background: url(../images/footer.svg) no-repeat;
+}
+
+img {
+    height: 35%;
+}
+
+svg {
+    height: 10%;
+    width: 10%;
+}
+
+a {
+    display: block;
+    text-align: center;
+    padding-top: 1rem;
+    color: black;
+    text-decoration: none;
+    font-size: 2.5vh;
+}
+
+a:hover {
+    color: var(--brand-color-1);
+    fill: var(--brand-color-7);
+}
+
+h1 {
+    font-size: 5vh;
+    color: var(--brand-color-1);
+}
+
+h2 {
+    font-size: 3vh;
+    color: var(--brand-color-4);
+}
+
+h5 {
+    font-size: 2vh;
+    color: var(--brand-color-7);
+}

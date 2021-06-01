@@ -1,0 +1,7 @@
+tr {
+    border-style: hidden;
+}
+
+.border-top-1 {
+    border-top: 3px dotted var(--brand-color-4);
+}
