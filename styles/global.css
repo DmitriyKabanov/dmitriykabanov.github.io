@@ -16,7 +16,6 @@ body {
     font-family: 'Rounded1c-Regular', Arial, sans-serif;
     font-weight: normal;
     font-style: normal;
-    max-width: 40rem;
     margin: auto;
     font-size: 1.75vh;
 }
@@ -24,6 +23,12 @@ body {
 @media screen and (max-device-width: 1024px), screen and (max-width: 1024px) {
     body {
         max-width: 100%;
+    }
+}
+
+@media (orientation: landscape) {
+    body {
+        max-width: 40rem;
     }
 }
 
@@ -44,10 +49,6 @@ header {
 
 footer {
     background: url(../images/footer.svg) no-repeat;
-}
-
-img {
-    height: 35%;
 }
 
 svg {

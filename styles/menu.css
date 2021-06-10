@@ -2,6 +2,9 @@ tr {
     border-style: hidden;
 }
 
-.border-top-1 {
-    border-top: 3px dotted var(--brand-color-4);
+@media screen and (max-device-width: 991px), screen and (max-width: 991px) {
+    .border-sm {
+        border-top: 3px dotted var(--brand-color-4);
+        border-bottom: 3px dotted var(--brand-color-4);
+    }
 }
