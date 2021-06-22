@@ -1,10 +1,10 @@
-tr {
-    border-style: hidden;
+@media (min-width: 992px) {
+    .border-right-xl {
+        border-right: 1px solid var(--brand-color-4);
+    }
 }
 
-@media screen and (max-device-width: 991px), screen and (max-width: 991px) {
-    .border-sm {
-        border-top: 3px dotted var(--brand-color-4);
-        border-bottom: 3px dotted var(--brand-color-4);
-    }
+.border-top-bottom {
+    border-top: 1px solid var(--brand-color-4);
+    border-bottom: 1px solid var(--brand-color-4);
 }
