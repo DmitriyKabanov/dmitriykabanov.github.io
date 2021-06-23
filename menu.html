@@ -11,72 +11,74 @@
     <link href="styles/menu.css" rel="stylesheet"/>
 </head>
 <body>
-<header></header>
 <main class="container-fluid">
     <h1 class="text-center text-uppercase">Меню</h1>
     <div class="row">
         <div class="order-lg-1 col-lg-6 col-md-12 p-3 border-top-bottom border-right-xl">
-            <h2>ESPRESSO</h2>
+            <h2 class="text-uppercase">Espresso</h2>
             <small class="text-muted">Двойные шоты из спешелти моносортов</small>
         </div>
         <div class="order-lg-3 col-lg-6 col-md-12 p-3 border-right-xl">
             <div class="row pb-1">
                 <div class="col-9 fw-bold">Эспрессо</div>
-                <div class="col-3 text-end">150₽</div>
+                <div class="col-3 fw-bold text-end">100₽</div>
             </div>
             <div class="row pb-1">
                 <div class="col-7 fw-bold">C молоком</div>
                 <div class="col-2 text-center">200мл</div>
-                <div class="col-3 text-end">200₽</div>
+                <div class="col-3 fw-bold text-end">200₽</div>
             </div>
             <div class="row pb-1">
                 <div class="col-7"></div>
                 <div class="col-2 text-center">300мл</div>
-                <div class="col-3 text-end">250₽</div>
+                <div class="col-3 fw-bold text-end">250₽</div>
             </div>
             <div class="row pb-1">
-                <div class="col-9 fw-bold">Растительное молоко</div>
-                <div class="col-3 text-end">+100₽</div>
+                <div class="col-9 fw-bold attention">Растительное молоко</div>
+                <div class="col-3 fw-bold text-end">+100₽</div>
             </div>
             <div class="row pb-1">
                 <div class="col-7 fw-bold">С тоником</div>
                 <div class="col-2 text-center">400мл</div>
-                <div class="col-3 text-end">200₽</div>
+                <div class="col-3 fw-bold text-end">200₽</div>
             </div>
-            <div class="row pb-1">
+            <div class="row">
                 <div class="col-9 fw-bold">С мороженым</div>
-                <div class="col-3 text-end">200₽</div>
+                <div class="col-3 fw-bold text-end">200₽</div>
             </div>
         </div>
         <div class="order-lg-1 col-lg-6 col-md-12 p-3 border-top-bottom">
             <h2 class="text-uppercase">Slow brew</h2>
-            <small class="text-muted">Черный кофе</small>
+            <small class="text-muted">Чёрный кофе, заваренный без кофемашины </small>
         </div>
         <div class="order-lg-3 col-lg-6 col-md-12 p-3">
-            <div class="row pb-1">
-                <div class="col-7 fw-bold">Аэропресс</div>
-                <div class="col-2 text-center">200мл</div>
-                <div class="col-3 text-end">160₽</div>
+            <div class="row pb-3">
+                <div class="col-7">
+                    <div class="text-uppercase fw-bold">Суматра Гаруда</div>
+                    <small>чернослив, торф, кедровый орех, табачный лист, черноплодная рябина, голубика</small>
+                </div>
+                <div class="col-3 text-uppercase">Sca 86</div>
+                <div class="col-2 fw-bold text-end">150₽</div>
             </div>
-            <div class="row pb-1">
-                <div class="col-7 fw-bold">Фильтр</div>
-                <div class="col-2 text-center">200мл</div>
-                <div class="col-3 text-end">150₽</div>
+            <div class="row pb-3">
+                <div class="col-7">
+                    <div class="text-uppercase fw-bold">Кения Каганда</div>
+                    <small>малина, персик, чёрная смородина, мандарин</small>
+                </div>
+                <div class="col-3 text-uppercase">Sca 88</div>
+                <div class="col-2 fw-bold text-end">200₽</div>
             </div>
-            <div class="row pb-1">
-                <div class="col-7 fw-bold">Воронка</div>
-                <div class="col-2 text-center">220мл</div>
-                <div class="col-3 text-end">180₽</div>
+            <div class="row pb-3">
+                <div class="col-7">
+                    <div class="text-uppercase fw-bold">Эфиопия Фог Дилги</div>
+                    <small>цветы, лайм, косточковые фрукты</small>
+                </div>
+                <div class="col-3 text-uppercase">Sca 87,5</div>
+                <div class="col-2 fw-bold text-end">250₽</div>
             </div>
-            <div class="row pb-1">
-                <div class="col-7 fw-bold">Австралийский лунго</div>
-                <div class="col-2 text-center">220мл</div>
-                <div class="col-3 text-end">200₽</div>
-            </div>
-            <div class="row pb-1">
-                <div class="col-7 fw-bold">Кемекс</div>
-                <div class="col-2 text-center">450мл</div>
-                <div class="col-3 text-end">300₽</div>
+            <div class="row">
+                <div class="col-9 fw-bold attention">Кемекс</div>
+                <div class="col-3 fw-bold text-end">+100₽</div>
             </div>
         </div>
     </div>
@@ -86,19 +88,23 @@
             <small class="text-muted">Сладкий кофе с добавками, приготовленный по нашим рецептам</small>
         </div>
         <div class="order-lg-4 col-lg-6 col-md-12 p-3 border-right-xl">
-            <div class="row pb-1">
-                <div class="col-12 fw-bold">Латте карамель</div>
-            </div>
-            <div class="row pb-1">
-                <div class="col-7 fw-bold">Латте клубника-тимьян</div>
+            <div class="row pb-3">
+                <div class="col-7 fw-bold">
+                    Латте
+                    <small class="d-block fw-normal">карамель</small>
+                    <small class="d-block fw-normal">клубника-тимьян</small>
+                </div>
                 <div class="col-2 text-center">300мл</div>
-                <div class="col-3 text-end">280₽</div>
+                <div class="col-3 fw-bold text-end">280₽</div>
             </div>
-            <div class="row pb-1">
-                <div class="col-12 fw-bold">Раф ваниль</div>
-            </div>
-            <div class="row pb-1">
-                <div class="col-12 fw-bold">Раф лаванда</div>
+            <div class="row">
+                <div class="col-7 fw-bold">
+                    Раф
+                    <small class="d-block fw-normal">ваниль</small>
+                    <small class="d-block fw-normal">лаванда</small>
+                </div>
+                <div class="col-2 text-center">300мл</div>
+                <div class="col-3 fw-bold text-end">280₽</div>
             </div>
         </div>
         <div class="order-lg-2 col-lg-6 col-md-12 p-3 border-top-bottom  ">
@@ -106,29 +112,30 @@
             <small class="text-muted">Летние напитки со льдом</small>
         </div>
         <div class="order-lg-4 col-lg-6 col-md-12 p-3">
-            <div class="row pb-1">
+            <div class="row pb-3">
                 <div class="col-7 fw-bold">
                     Лимонады
-                    <small class="d-block fw-normal">лимон-мята, имбирь, смородина-разморин</small>
+                    <small class="d-block fw-normal">имбирь</small>
+                    <small class="d-block fw-normal">лимон-мята</small>
+                    <small class="d-block fw-normal">смородина-розмарин</small>
                 </div>
-                <div class="col-5 text-end">200₽</div>
-            </div>
-            <div class="row pb-1">
-                <div class="col-7 fw-bold">Колд брю</div>
-                <div class="col-5 text-end">170₽</div>
-            </div>
-            <div class="row pb-1">
-                <div class="col-7 fw-bold">Айс латте</div>
                 <div class="col-2 text-center">400мл</div>
-                <div class="col-3 text-end">240₽</div>
+                <div class="col-3 fw-bold text-end">200₽</div>
             </div>
             <div class="row pb-1">
-                <div class="col-7 fw-bold">Айс латте карамель</div>
-                <div class="col-5 text-end">280₽</div>
+                <div class="col-7 fw-bold">Фильтр</div>
+                <div class="col-2 text-center">400мл</div>
+                <div class="col-3 fw-bold text-end">150₽</div>
             </div>
             <div class="row pb-1">
-                <div class="col-7 fw-bold">Айс матча латте</div>
-                <div class="col-5 text-end">250₽</div>
+                <div class="col-7 fw-bold">Латте</div>
+                <div class="col-2 text-center">400мл</div>
+                <div class="col-3 fw-bold text-end">250₽</div>
+            </div>
+            <div class="row">
+                <div class="col-7 fw-bold">Матча латте</div>
+                <div class="col-2 text-center">400мл</div>
+                <div class="col-3 fw-bold text-end">250₽</div>
             </div>
         </div>
     </div>
@@ -136,48 +143,44 @@
         <div class="col-12 p-3 border-top-bottom">
             <h2 class="text-uppercase text-lg-center text-sm-left">Other</h2>
         </div>
-        <div class="col-12 p-3">
+        <div class="col-12 p-3 pb-0">
             <div class="row pb-1">
+                <div class="col-7 fw-bold">Фильтр</div>
+                <div class="col-2 text-center">200мл</div>
+                <div class="col-3 fw-bold text-end">150₽</div>
+            </div>
+            <div class="row pb-3">
                 <div class="col-7 fw-bold">
                     Чай
-                    <small class="d-block fw-normal">черный, зеленый, гречишный</small>
+                    <small class="d-block fw-normal">черный</small>
+                    <small class="d-block fw-normal">зеленый</small>
+                    <small class="d-block fw-normal">гречишный</small>
                 </div>
                 <div class="col-2 text-center">500мл</div>
-                <div class="col-3 text-end">200₽</div>
-            </div>
-            <div class="row pb-1">
-                <div class="col-7 fw-bold">Матча</div>
-                <div class="col-2 text-center">400мл</div>
-                <div class="col-3 text-end">250₽</div>
+                <div class="col-3 fw-bold text-end">200₽</div>
             </div>
             <div class="row pb-1">
                 <div class="col-7 fw-bold">Матча латте</div>
                 <div class="col-2 text-center">300мл</div>
-                <div class="col-3 text-end">250₽</div>
+                <div class="col-3 fw-bold text-end">250₽</div>
             </div>
             <div class="row pb-1">
                 <div class="col-7 fw-bold">Горячий шоколад</div>
                 <div class="col-2 text-center">150мл</div>
-                <div class="col-3 text-end">200₽</div>
+                <div class="col-3 fw-bold text-end">200₽</div>
             </div>
             <div class="row pb-1">
                 <div class="col-7 fw-bold">Какао</div>
                 <div class="col-2 text-center">300мл</div>
-                <div class="col-3 text-end">200₽</div>
+                <div class="col-3 fw-bold text-end">200₽</div>
             </div>
-            <div class="row pb-1">
+            <div class="row">
                 <div class="col-7 fw-bold">Фреш</div>
                 <div class="col-2 text-center">250мл</div>
-                <div class="col-3 text-end">200₽</div>
-            </div>
-            <div class="row pb-1">
-                <div class="col-7 fw-bold">Молочный коктейль</div>
-                <div class="col-2 text-center">400мл</div>
-                <div class="col-3 text-end">300₽</div>
+                <div class="col-3 fw-bold text-end">200₽</div>
             </div>
         </div>
     </div>
 </main>
-<footer></footer>
 </body>
 </html>
