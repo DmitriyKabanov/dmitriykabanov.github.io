@@ -1,16 +1,5 @@
-@media (min-width: 992px) {
-    .border-right-xl {
-        border-right: 1px solid var(--brand-color-4);
-    }
-}
-
-.border-top-bottom {
-    border-top: 1px solid var(--brand-color-4);
-    border-bottom: 1px solid var(--brand-color-4);
-}
-
-.attention::before {
-    content: '*';
-    padding-right: 0.2rem;
-    color: red;
+.seasonal {
+    background-color: var(--brand-color-7);
+    margin: 0 -1rem;
+    padding: 0 1rem;
 }

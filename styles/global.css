@@ -1,22 +1,20 @@
 :root {
-    --brand-color-1: #306054;
-    --brand-color-2: #3C7361;
-    --brand-color-3: #74AA9F;
-    --brand-color-4: #79932D;
-    --brand-color-5: #AAB754;
-    --brand-color-6: #CCCE4B;
-    --brand-color-7: #F7C852;
+    --brand-color-1: #f7e69e;
+    --brand-color-2: #004f30;
+    --brand-color-3: #f8d500;
+    --brand-color-4: #e2b600;
+    --brand-color-5: #db9500;
+    --brand-color-6: #3768aa;
+    --brand-color-7: #6dc0dd;
+    --brand-color-8: #b41a25;
+    --brand-color-9: #d91119;
 }
 
 main {
-    background: url(../images/header.svg) top no-repeat, url(../images/footer.svg) bottom no-repeat;
-    background-size: contain;
-    padding: 8rem 0;
     min-height: 100%;
 }
 
 body {
-    font-family: 'Rounded1c-Regular', Arial, sans-serif;
     font-weight: normal;
     font-style: normal;
     margin: auto;
@@ -27,15 +25,6 @@ body {
     body {
         max-width: 100%;
     }
-
-    h1, h2, body {
-        font-size: 200%;
-    }
-}
-
-@font-face {
-    font-family: "Rounded1c-Regular";
-    src: url(../fonts/MPLUSRounded1c-Regular.ttf);
 }
 
 svg {
@@ -55,13 +44,4 @@ a {
 a:hover {
     color: var(--brand-color-1);
     fill: var(--brand-color-7);
-}
-
-h1 {
-    font-weight: bold;
-    color: var(--brand-color-1);
-}
-
-h2 {
-    color: var(--brand-color-4);
 }
